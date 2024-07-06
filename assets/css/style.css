@@ -1,0 +1,919 @@
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 65px;
+    margin-top: -3rem;
+    position: fixed;
+    z-index: 99999;
+    box-shadow: 5px 5px 10px rgb(233, 230, 230);
+    /* border: 2px solid red; */
+
+}
+
+.nav-logo{
+    width: 7%;
+    height: 37px;
+    margin-top: 0.7%;
+    margin-left: 5%;
+    /* border: 1px solid red; */
+    background-position:center ;
+    background-size: contain;
+    background-image: url(../img/oring.PNG);
+}
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+.nav-tabs{
+    width: 32%;
+    height: 50px;
+    margin-left:0%;
+    /* display: flex; */
+    /* border: 1px solid red; */
+}
+.nav-tabs ul{
+    margin-left:-9% ;
+    margin-top: 4%;
+    display: flex;
+    list-style: none;
+    justify-content:space-evenly;
+}
+.nav-tabs ul li a{
+    /* margin-top: -3%; */
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 520;
+    font-size: 0.9rem;
+    color: rgb(37, 36, 36);
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin-top:3rem ;
+    /* border: 1px solid red; */
+}
+.vic{
+    width: 100%;
+    height: 560px;
+    /* margin-top:; */
+    border: 1px solid #fff;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/opay.jpg);
+}
+.container .vic h1{
+    color: #fff;
+    margin-left:6% ;
+    margin-top: 4%;
+    font-weight: 800;
+    font-family: sans-serif;
+    font-size: 50px;
+    /* line-height: 1rem; */
+    /* font-stretch: narrower; */
+}
+h4{
+    color:rgb(20, 20, 99);
+    margin-left: 6%;
+    margin-top: 3%;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.kok{
+    width: 100%;
+    height: 330px;
+    /* border: 1px solid red;/ */
+}
+.fon{
+    /* position:stat; */
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.kon{
+    width: 10%;
+    height: 240px;
+    margin-left: -1%;
+    z-index: 9999;
+    /* position:absolute; */
+    /* border: 1px solid green; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/slide-img-1.png);
+}
+.hon{
+    width: 10%;
+    height: 240px;
+    margin-left: 12%;
+    z-index: 9999;
+    /* position: fixed; */
+    /* border: 1px solid green; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/slide1.png);
+}
+.don{
+    width: 10%;
+    height: 240px;
+    margin-left: 12%;
+    z-index: 9999;
+    /* position: absolute; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/slide-img-6.png);
+}
+.lan{
+    width: 10%;
+    height: 240px;
+    margin-left: 12%;
+    z-index: 9999;
+    /* position: absolute; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/slide-img-4.png);
+}
+
+.fok{
+    width: 10%;
+    height: 240px;
+    margin-left: 11%;
+    z-index: 9999;
+    /* position: absolute; */
+    background-position: center;
+    background-size: contain;
+    background-image: url(../img/slide-img-5.png);
+}
+.pan{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.can{
+    width: 14rem;
+    height: 230px;
+    /* display: flex; */
+    /* position: absolute; */
+    border-radius: 6%;
+    background-color: rgb(222, 234, 245);
+    /* flex-direction: column; */
+    margin-top:-4rem;
+    margin-left:0.9rem;
+    /* transition: 0.5s ease-in; */
+    /* border: 1px solid red; */
+}
+.can .font{
+    margin-top: 3rem;
+    margin-left: 1.3rem;
+    color:  rgb(23, 173, 103);
+    
+}
+
+.san .font{
+    margin-top: 3rem;
+    margin-left: 1.3rem;
+    color:  rgb(23, 173, 103);
+    
+}
+.can:hover{
+    background-color:  rgb(23, 173, 103);
+    /* color: #fff; */
+}
+.can:hover .font{
+    color: #fff;
+}
+.can:hover h3{
+    color: #fff;
+}
+h2{
+    color:rgb(20, 20, 99) ;
+    font-family: sans-serif;
+    margin-left: 1.3rem;
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+h3{
+    color: rgb(23, 173, 103);
+    font-family: sans-serif;
+    font-size: 0.6rem;
+    margin-top: -2%;
+    margin-left: 1.3rem;
+}
+.san{
+    width: 14rem;
+    height: 230px;
+    background-color:  rgb(222, 234, 245);
+    /* border: 1px solid red; */
+    border-radius: 6%;
+    margin-left: 2.4rem;
+    margin-top: -4rem;
+}
+.gan{
+    width: 14rem;
+    height: 230px;
+    background-color:  rgb(222, 234, 245);
+    /* border: 1px solid red; */
+    border-radius: 6%;
+    margin-left: 2.7rem;
+    margin-top: -4rem;
+    /* position: absolute; */
+}
+
+.gan .font{
+    margin-top: 3rem;
+    margin-left: 1.3rem;
+    color:  rgb(23, 173, 103);
+    /* color: #fff; */ 
+}
+.gan:hover .font{
+    color: #fff;
+}
+.ran{
+    width: 14rem;
+    height: 230px;
+    background-color:  rgb(222, 234, 245);
+    /* border: 1px solid red; */
+    border-radius: 6%;
+    margin-left: 2.4rem;
+    margin-top: -4rem;
+}
+.ran:hover{
+    background-color: rgb(23, 173, 103);
+}
+.ran:hover .font{
+    color: #fff;
+}
+.ran:hover h3{
+    color: #fff;
+}
+.ran:hover h4{
+    color: #fff;
+}
+.ran .font{
+    margin-top: 3rem;
+    margin-left: 1.3rem;
+    color:  rgb(23, 173, 103);
+    
+}
+.yan{
+    width: 14rem;
+    height: 230px;
+    background-color:  rgb(222, 234, 245);
+    /* border: 1px solid red; */
+    border-radius: 6%;
+    margin-left: 2rem;
+    margin-top: -4rem;
+}
+.yan .font{
+    margin-top: 3rem;
+    margin-left: 1.3rem;
+    color:  rgb(23, 173, 103);
+    
+}
+.san:hover{
+    background-color:rgb(23, 173, 103) ;
+}
+.san:hover h5{
+    color: #fff;
+}
+.san:hover h6{
+    color: #fff;
+}
+.san:hover .font{
+    color: #fff;
+}
+.san h5{
+    color:rgb(20, 20, 99) ;
+    font-family: sans-serif;
+    margin-left: 5%;
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+.san h6{
+    color: rgb(23, 173, 103);
+    font-family: sans-serif;
+    font-size: 0.6rem;
+    margin-top: -7%;
+    margin-left: 5%;
+}
+.gan:hover {
+    background-color:  rgb(23, 173, 103);
+}
+.gan:hover h6{
+    color: #fff;
+}
+.gan:hover h5{
+    color: #fff;
+}
+.gan h5{
+    color:rgb(20, 20, 99) ;
+    font-family: sans-serif;
+    margin-left: 5%;
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+.gan h6{
+    color: rgb(23, 173, 103);
+    font-family: sans-serif;
+    font-size: 0.6rem;
+    margin-top: -7%;
+    margin-left: 5%;
+}
+.ran h3{
+    color:rgb(20, 20, 99) ;
+    font-family: sans-serif;
+    margin-left: 5%;
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+.ran h4{
+    color: rgb(23, 173, 103);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 0.5rem;
+    margin-top: -3%;
+    margin-left: 5%;
+}
+.yan:hover{
+    background-color:rgb(23, 173, 103) ;
+}
+.yan:hover h2{
+    color: #fff;
+}
+.yan:hover h3{
+    color: #fff;
+}
+.yan:hover .font{
+    color: #fff;
+}
+.yan h2{
+    color:rgb(20, 20, 99) ;
+    font-family: sans-serif;
+    margin-left: 5%;
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+.yan h3{
+    color: rgb(23, 173, 103);
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 0.5rem;
+    margin-top: -3%;
+    margin-left: 5%;
+}
+.pin h1{
+    color:rgb(20, 20, 99) ;
+    font-family: sans-serif;
+    margin-left: -78rem;
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin-top:17rem; 
+}
+.mother{
+    width: 100%;
+    height:550px;
+    display: flex;
+    /* border: 1px solid red; */
+    background-color: rgb(23, 173, 103);
+}
+.fucker{
+    width: 41%;
+    height: 430px;
+    margin-left: 2rem;
+    margin-top: 3.7rem;
+    /* border: 1px solid yellow; */
+}
+.you{
+    width: 43%;
+    height: 430px;
+    margin-top: 3.7rem;
+    margin-left: 7rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3%;
+    background-image: url(../img/OurServices01.jpg);
+    /* border: 1px solid yellow; */
+}
+.fucker h4{
+    color: #fff;
+    margin-left: 1rem;
+    margin-top: 5rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 2.7rem;
+}
+.fucker h5{
+    color: #fff;
+    margin-left: 1rem;
+    margin-top: -2rem;
+    font-family: sans-serif;
+    font-weight: 530;
+    font-size: 1.4rem;
+}
+.father{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    /* border:1px solid yellow; */
+    background-color:aliceblue;
+}
+.chi{
+    width:45% ;
+    height: 430px;
+    margin-top: 3.5rem;
+    margin-left: 5rem;
+    border-radius: 3%;
+    /* border: 1px solid yellow; */
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/OurServices02.jpg);
+}
+.nazi{
+    width: 41%;
+    height: 430px;
+    margin-top: 2rem;
+    margin-left: 3.7rem;
+    /* border: 1px solid yellow; */
+}
+.nazi h2{
+    margin-top: 6rem;
+    margin-left: 2rem;
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    font-weight: 770;
+    color:rgb(23, 173, 103) ;
+}
+.nazi h3{
+    margin-left: 2rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color:rgb(20, 20, 99);
+}
+.victor{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    background-color: rgb(23, 173, 103);
+    /* border: 1px solid yellow; */
+}
+.him{
+    width: 42%;
+    height: 430px;
+    margin-left: 2rem;
+    margin-top: 3.7rem;
+    /* border: 1px solid yellow; */
+}
+.her{
+    width: 43%;
+    height: 430px;
+    margin-top: 3.7rem;
+    margin-left: 7rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3%;
+    background-image: url(../img/OurServices03.jpg);
+}
+.him h5{
+    color: #fff;
+    margin-left: 5rem;
+    margin-top: 7rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 2.7rem;
+}
+.him h6{
+    color: #fff;
+    margin-left: 5rem;
+    margin-top: -2rem;
+    font-family: sans-serif;
+    font-weight: 530;
+    font-size: 1.4rem;
+}
+.mum{
+    width: 100%;
+    height: 550px;
+    border: 1px solid rgb(228, 228, 228);
+    background-color: rgb(228, 228, 228);
+}
+.edna{
+    width: 40%;
+    height: 430px;
+    margin-left: 47rem;
+    margin-top: 4rem;
+    /* border: 1px solid red; */
+
+}
+.edna h2{
+    width: 30%;
+    height: 150px;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    box-shadow: 4px 4px 4px;
+    /* border: 1px solid red; */
+    border-radius: 15%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/snip.PNG);
+}
+.edna h3{
+    color: rgb(104, 104, 101);
+    font-family: sans-serif;
+    font-size: 2.3rem;
+    font-weight: 200;
+    margin-left: 4.1rem;
+    margin-top: 4rem;
+}
+.edna h4{
+    width: 20%;
+    height: 26px;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+    /* border-radius: 1%; */
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/snip1.PNG);
+    /* border: 1px solid red; */
+}
+.edna h5{
+    width: 20%;
+    height: 26px;
+    margin-left: 12rem;
+    margin-top: -3rem;
+    /* border-radius: 1%; */
+    background-position: center;
+    background-size:cover;
+    background-image: url(../img/snip2.PNG);
+}
+.grani{
+    width: 100%;
+    height: 642px;
+    /* border: 1px solid rgb(211, 46, 46); */
+    background-color: #fff;
+}
+.grani h2{
+    width: 93%;
+    height: 500px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    /* border: 1px solid red; */
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/snip3.PNG);
+}
+.grani h1{
+    margin-left: 3rem;
+    margin-top:3rem ;
+    color:rgb(20, 20, 99);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.plane{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    /* border: 1px solid red; */
+    background-color:  rgb(23, 173, 103);
+}
+.bad{
+    width: 50%;
+    height: 445px;
+    margin-top: 5rem;
+    /* border: 1px solid yellow; */
+}
+.bad h1{
+    width: 80%;
+    height: 210px;
+    /* border: 1px solid red; */
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    /* border-radius: 3%; */
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/security-banner-1.png);
+}
+.bad h2{
+    width: 80%;
+    height: 210px;
+    /* border: 1px solid red; */
+    margin-left: 5rem;
+    margin-top: -0.2rem;
+    /* border-radius: 3%; */
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/security-banner-2.png);
+}
+.zip{
+    width: 50%;
+    height: 500px;
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+}
+.zip h1{
+    color:rgb(20, 20, 99) ;
+    font-family: sans-serif;
+    margin-top: 3.9rem;
+    margin-left: 2rem;
+    font-weight: 750;
+    font-size: 2.3rem;
+}
+.zip h2{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-left: 2rem;
+    margin-top: -0.1rem;
+}
+.zip h3{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-left: 2rem;
+    margin-top: -1rem;
+}
+.zip h4{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-left: 2rem;
+    margin-top:1.4rem;
+}
+.zip h5{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-left: 2rem;
+    margin-top: -1.9rem;
+}
+.zip h6{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    margin-left: 2rem;
+    margin-top:-0.5rem; 
+}
+.zip p{
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+    margin-left: 2rem;
+    margin-top: -4rem;
+}
+.light{
+    width: 100%;
+    height: 530px;
+    display: flex;
+    /* border: 1px solid red; */
+    background-color: rgb(255, 255, 255);
+}
+.dachi{
+    width: 48%;
+    height: 445px;
+    margin-top: 5rem;
+    /* border: 1px solid red; */
+}
+.nico{
+    width: 60%;
+    height: 500px;
+    margin-top: 2.6rem;
+    /* border: 1px solid red; */
+}
+ .dachi h3{
+    color:rgb(20, 20, 99);
+    margin-top: -0.4rem;
+    margin-left: 3rem;
+    font-size: 1rem;
+ }
+.dachi h1{
+    color:rgb(20, 20, 99) ;
+    font-family: sans-serif;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    font-weight: 740;
+    font-size: 2.5rem;
+}
+.dachi h2{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+.nico h3{
+    width: 83%;
+    height: 220px;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    /* border: 1px solid red; */
+    border-radius: 5%;
+    background-image: url(../img/snip4.PNG);
+    background-position: center;
+    background-size: cover;
+}
+.nico h4{
+    width: 83%;
+    height: 220px;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    /* border: 1px solid red; */
+    border-radius: 5%;
+    background-image: url(../img/snip5.PNG);
+    background-position: center;
+    background-size: cover;
+}
+video{
+    width:100%;
+    height: 550px;
+    object-fit: cover;
+    /* border: 2px solid red; */
+}
+.genv{
+    width: 100%;
+    height: 370px;
+    /* border: 1px solid red; */
+    background-image: url(../img/guillermo-alvarez-kF5nFbHBG5E-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.vak{
+    width: 100%;
+    height:100% ;
+    display: flex;
+    background-color: rgb(23, 173, 103) ;
+    opacity: 0.9;
+}
+.bin h1{
+    color: #fff;
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.bin h2{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.bin h3{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.bin h4{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.bin h5{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.nin h1{
+    color: #fff;
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.nin h2{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.nin h3{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.nin h4{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.nin h5{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.min h1{
+    color: #fff;
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.min h2{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.min h3{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.min h4{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.nan h1{
+    color: #fff;
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.nan h2{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.nan h3{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: -0.2rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.nan h4{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: -0.2rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.hak h1{
+    color: #fff;
+    font-size: 0.8rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    font-family: sans-serif;
+    font-weight: 400;      
+}
+.hak h2{
+    color: #fff;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 300;
+}

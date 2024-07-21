@@ -512,7 +512,7 @@ h3{
     /* border: 1px solid red; */
 
 }
-.edna h2{
+.bend{
     width: 30%;
     height: 150px;
     margin-left: 5rem;
@@ -532,7 +532,7 @@ h3{
     margin-left: 4.1rem;
     margin-top: 4rem;
 }
-.edna h4{
+.calv{
     width: 20%;
     height: 26px;
     margin-top: 2.5rem;
@@ -543,7 +543,7 @@ h3{
     background-image: url(../img/snip1.PNG);
     /* border: 1px solid red; */
 }
-.edna h5{
+.bend1{
     width: 20%;
     height: 26px;
     margin-left: 12rem;
@@ -559,7 +559,7 @@ h3{
     /* border: 1px solid rgb(211, 46, 46); */
     background-color: #fff;
 }
-.grani h2{
+.granm{
     width: 93%;
     height: 500px;
     margin-top: 3rem;
@@ -590,7 +590,7 @@ h3{
     margin-top: 5rem;
     /* border: 1px solid yellow; */
 }
-.bad h1{
+.badi{
     width: 80%;
     height: 210px;
     /* border: 1px solid red; */
@@ -601,12 +601,12 @@ h3{
     background-size: cover;
     background-image: url(../img/security-banner-1.png);
 }
-.bad h2{
+.bade{
     width: 80%;
     height: 210px;
     /* border: 1px solid red; */
     margin-left: 5rem;
-    margin-top: -0.2rem;
+    margin-top: 1rem;
     /* border-radius: 3%; */
     background-position: center;
     background-size: cover;
@@ -714,7 +714,7 @@ h3{
     margin-left: 3rem;
     margin-top: 1rem;
 }
-.nico h3{
+.nimo{
     width: 83%;
     height: 220px;
     margin-top: 1rem;
@@ -725,7 +725,7 @@ h3{
     background-position: center;
     background-size: cover;
 }
-.nico h4{
+.nine{
     width: 83%;
     height: 220px;
     margin-top: 1rem;
@@ -916,4 +916,525 @@ video{
     margin-top: 1rem;
     font-family: sans-serif;
     font-weight: 300;
+}
+@media screen and (max-width:600px) {
+    .container{
+        width: 100%;
+        height:100vh;
+        display: block;
+    }
+    header{
+        width: 84.2%;
+        height: 65px;
+    }
+    nav{
+        width: 84.2%;
+        height: 65px;
+    }
+    .nav-logo{
+        width: 20%;
+        height: 16px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    .nav-tabs{
+        width:100%;
+        height: 24px;
+        margin-left:1.8rem;
+        display: flex;
+        /* justify-content: space-around; */
+    }
+    .nav-tabs ul li{
+        display: flex;
+        margin-top: 0.5rem;
+        /* margin-left: -rem; */
+        justify-content: space-around;
+    }
+    .vic{
+        width: 100%;
+        height: 200px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .container .vic h1{
+        font-size: 1rem;
+        font-weight: 550;
+        margin-top: 7rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container .vic h4{
+        font-size: 0.5rem;
+        font-weight: 400;
+        line-height: 50%;
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+    }
+    .kok{
+        width: 100%;
+        height: 100px;
+        display: block;
+        flex-wrap: wrap ;
+    }
+    .fon{
+        width: 100%;
+        height: 100px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .kon{
+        width: 35%;
+        height: 250px;
+        display: block;
+        margin-left: 2.5rem;
+        flex-wrap: wrap;
+        /* z-index: 9999; */
+    }
+    .hon{
+        width: 35%;
+        height: 250px;
+        display: block;
+        margin-left: 2.5rem;
+        margin-top: 10rem;
+        flex-wrap: wrap;
+        /* z-index: 9999; */
+    }
+    .don{
+        width: 35%;
+        height: 250px;
+        display: block;
+        margin-left: 2.5rem;
+        margin-top: 10rem;
+        flex-wrap: wrap;
+    }
+    .lan{
+        width: 35%;
+        height: 250px;
+        display: block;
+        margin-left: 2.5rem;
+        margin-top: 10rem;
+        flex-wrap: wrap;
+    }
+    .fok{
+        width: 35%;
+        height: 250px;
+        display: block;
+        margin-left: 2.5rem;
+        margin-top: 10rem;
+        flex-wrap: wrap;
+    }
+    .pan{
+        width: 100%;
+        height: 1730px;
+        display: block;
+        flex-wrap:wrap;
+        margin-top: 10rem;
+        /* z-index: 9999; */
+    }
+    .can{
+        width: 60%;
+        height: 150px;
+        display: block;
+        margin-top: 9.5rem;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+        /* z-index: 9999; */
+    }
+    .pan .can h2{
+        font-size: 0.8rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
+    }
+    .pan .can h3{
+        margin-left: 0.5rem;
+    }
+    .font{
+        visibility: hidden;
+    }
+    .san{
+        width: 60%;
+        height: 150px;
+        display: block;
+        margin-top: 16.3rem;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+    }
+    .san h5{
+        margin-top: 1rem;
+        font-size: 0.8rem;
+    }
+    .gan{
+        width: 60%;
+        height: 150px;
+        display: block;
+        margin-top: 16rem;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+    }
+    .gan h5{
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+    .ran{
+        width: 60%;
+        height: 150px;
+        display: block;
+        margin-top: 16rem;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+    }
+    .ran h3{
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+    .yan{
+        width: 60%;
+        height: 150px;
+        display: block;
+        margin-top: 16rem;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+    }
+    .pin{
+        width: 60%;
+        height: 150px;
+        display: block;
+        /* margin-top: -4rem; */
+        /* margin-left: 2rem; */
+        flex-wrap: wrap;
+    }
+    .pin h1{
+        font-size: 9rem;
+        margin-top: -10rem;
+    }
+    .mother{
+        width: 100%;
+        height: 450px;
+        /* margin-top: 100rem; */
+        flex-direction: column;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .fucker{
+        width: 100%;
+        height: 100px;
+        /* margin-left: -0.7rem; */
+        /* margin-top: 10rem; */
+        display: block;
+        flex-wrap: wrap;
+    }
+    .mother .fucker h4{
+        font-size: 1.3rem;
+        /* margin-top:rem; */
+        margin-left: 0.1rem;
+        font-weight: 400;
+    }
+    .fucker h5{
+        font-size: 1rem;
+        margin-top:1.5rem;
+        line-height: 24px;
+        margin-left:0.1rem;
+        font-weight: 400;
+    }
+    .you{
+        width: 99%;
+        height: 230px;
+        margin-left: 0.1rem;
+        margin-top: 6.8rem;
+        display: block;
+        flex-wrap: wrap;  
+    }
+    .father{
+        width: 100%;
+        height: 450px;
+        margin-top:-6rem;
+        flex-direction: column;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .chi{
+        width: 99%;
+        height: 230px;
+        margin-left: 0.1rem;
+        margin-top: 6.8rem;
+        display: block;
+        flex-wrap: wrap; 
+    }
+    .nazi{
+        width: 100%;
+        height: 100px;
+        /* margin-left: -0.7rem; */
+        /* margin-top: 10rem; */
+        display: block;
+        flex-wrap: wrap; 
+    }
+    .nazi h2{
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-top: -1rem;
+        margin-left: -2rem;
+    }
+    .nazi h3{
+        font-size: 1rem;
+        margin-top:1.2rem;
+        line-height: 24px;
+        margin-left:-3.3rem;
+        font-weight: 400;
+    }
+    .victor{
+        width: 100%;
+        height: 450px;
+        margin-top:-6rem;
+        flex-direction: column;
+        display: block;
+        flex-wrap: wrap; 
+    }
+    .him{
+        width: 99%;
+        height: 230px;
+        margin-left: 0.1rem;
+        margin-top: 6.8rem;
+        display: block;
+        flex-wrap: wrap; 
+    }
+    .her{
+        width: 99%;
+        height: 230px;
+        margin-left: 0.1rem;
+        margin-top: -2rem;
+        display: block;
+        flex-wrap: wrap;   
+    }
+    .him h5{
+        font-size: 1.3rem;
+        /* margin-top:rem; */
+        margin-left: 0.1rem;
+        font-weight: 400;
+    }
+    .him h6{
+        font-size: 1rem;
+        margin-top:1.5rem;
+        line-height: 24px;
+        margin-left:0.1rem;
+        font-weight: 400;
+    }
+    .mum{
+        width: 100%;
+        height: 620px;
+        margin-top:6rem;
+        /* flex-direction: column; */
+        display: block;
+        flex-wrap: wrap;   
+    }
+    .edna{
+        width: 100%;
+        height: 100px;
+        margin-left: -3rem;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .edna h3{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .bend{
+        width: 30%;
+        height: 100px;
+        margin-left: 11rem;
+    }
+    .calv{
+        margin-left: 15rem;
+        margin-top: 4rem;
+    }
+    .bend1{
+        margin-left:6rem;
+        margin-top: -1.5rem;
+    }
+    .grani{
+        width: 100%;
+        height: 250px;
+        color: aquamarine;
+        /* margin-top:6rem; */
+        /* flex-direction: column; */
+        display: block;
+        flex-wrap: wrap; 
+    }
+    .grani h1{
+        font-size: 1.3rem;
+        margin-left: 1rem;
+        font-weight: 300;
+    }
+    .granm{
+         width: 90%;
+         height: 150px;
+         margin-left: 1rem;
+         display: block;
+         flex-wrap: wrap;
+    }
+    .plane{
+        width: 100%;
+        height: 620px;
+        /* color: aquamarine; */
+        /* margin-top:6rem; */
+        flex-direction: column;
+        display: block;
+        flex-wrap: wrap; 
+    }
+    .bad{
+        width: 100%;
+        height: 100px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .zip{
+        width: 100%;
+        height: 100px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .zip h1{
+        font-size: 1.6rem;
+        font-weight: 550;
+        margin-top:7.6rem ;
+
+    }
+    .zip h2{
+        font-size: 1.4rem;
+        font-weight: 550;
+        margin-top:1rem ;
+    }
+    .zip h4{
+        font-size: 1.4rem;
+        font-weight: 550;
+        margin-top:0.8rem ;
+    }
+    .zip h5{
+        margin-top: -1.6rem;
+    }
+    .zip h6{
+        font-size: 1.4rem;
+        font-weight: 550;
+        margin-top:-1rem ;
+    }
+    .zip p{
+       margin-top:-3rem; 
+    }
+    .badi{
+        width: 90%;
+        height: 100px;
+        margin-left: 1rem;
+
+    }
+    .bade{
+        width: 90%;
+        height: 100px;
+        margin-left: 1rem;
+        /* margin-top: 1rem; */
+    }
+    .light{
+        width: 100%;
+        height: 670px;
+        display: block;
+        margin-top: -4rem;
+        flex-wrap: wrap;
+        background-color: rgb(238, 221, 221); 
+    }
+    .dachi{
+        width: 100%;
+        height: 100px;
+        display: block;
+        flex-wrap: wrap;  
+    }
+    .nico{
+        width: 100%;
+        height: 100px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .dachi h1{
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 15px;
+        margin-left: 1.5rem;
+    }
+    .dachi h2{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 13px;
+        margin-left: 1.5rem;
+    }
+    .dachi h3{
+        font-size: 1rem;
+        margin-left: 1.5rem;
+
+    }
+    .nimo{
+        width: 90%;
+        height: 150px;
+        margin-top: 14rem;
+        margin-left: 1rem;
+    }
+    .nine{
+        width: 90%;
+        height: 150px;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    video{
+        width: 100%;
+        height: 200px;
+    }
+    .genv{
+        width: 100%;
+        height: 1000px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .vak{
+        width: 100%;
+        height: 1000px;
+        display: block;
+        flex-wrap: wrap;
+    }
+    .bin{
+        width: 100%;
+        height: 83px;
+        display: block;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+        margin-top: -4rem;
+    }
+    .nin{
+        width: 100%;
+        height: 83px;
+        display: block;
+        flex-wrap: wrap;
+        margin-left: 2rem;
+    }
+    .min{
+        width: 100%;
+        height: 83px;
+        display: block;
+        margin-left: 2rem;
+        flex-wrap: wrap;
+    }
+    .nan{
+        width: 100%;
+        height: 83px;
+        display: block;
+        margin-left: 2rem;
+        margin-top: -1.5rem;
+        flex-wrap: wrap;
+    }
+    .hak{
+        width: 100%;
+        height: 100px;
+        margin-top: -1.8rem;
+        display: block;
+        flex-wrap: wrap;
+        margin-left: -1.8rem;
+    }
 }

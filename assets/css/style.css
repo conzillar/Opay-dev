@@ -917,7 +917,7 @@ video{
     font-family: sans-serif;
     font-weight: 300;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:360px) {
     .container{
         width: 100%;
         height:100vh;
@@ -952,7 +952,7 @@ video{
     }
     .vic{
         width: 100%;
-        height: 200px;
+        height: 250px;
         display: block;
         flex-wrap: wrap;
     }
@@ -986,117 +986,144 @@ video{
         flex-wrap: wrap;
     }
     .kon{
-        width: 35%;
-        height: 250px;
+        width: 70%;
+        height: 480px;
         display: block;
-        margin-left: 2.5rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
         flex-wrap: wrap;
-        /* z-index: 9999; */
     }
     .hon{
-        width: 35%;
-        height: 250px;
+        width: 70%;
+        height: 480px;
         display: block;
-        margin-left: 2.5rem;
-        margin-top: 10rem;
+        margin-left: 2rem;
+        margin-top: 12.5rem;
         flex-wrap: wrap;
-        /* z-index: 9999; */
     }
     .don{
-        width: 35%;
-        height: 250px;
+        width: 70%;
+        height: 480px;
         display: block;
-        margin-left: 2.5rem;
-        margin-top: 10rem;
+        margin-left: 2rem;
+        margin-top:12.5rem;
         flex-wrap: wrap;
     }
     .lan{
-        width: 35%;
-        height: 250px;
+        width: 70%;
+        height: 480px;
         display: block;
-        margin-left: 2.5rem;
-        margin-top: 10rem;
+        margin-left: 2rem;
+        margin-top: 12.5rem;
         flex-wrap: wrap;
     }
     .fok{
-        width: 35%;
-        height: 250px;
+        width: 70%;
+        height: 480px;
         display: block;
-        margin-left: 2.5rem;
-        margin-top: 10rem;
+        margin-left: 2rem;
+        margin-top: 12.5rem;
         flex-wrap: wrap;
     }
     .pan{
         width: 100%;
-        height: 1730px;
+        height: 2830px;
         display: block;
         flex-wrap:wrap;
         margin-top: 10rem;
         /* z-index: 9999; */
     }
     .can{
-        width: 60%;
-        height: 150px;
+        width: 100%;
+        height: 190px;
         display: block;
-        margin-top: 9.5rem;
-        margin-left: 2rem;
+        margin-top: 24rem;
+        margin-left: 0.1rem;
         flex-wrap: wrap;
+        /* visibility: hidden; */
         /* z-index: 9999; */
     }
-    .pan .can h2{
-        font-size: 0.8rem;
+    .can h2{
+        font-size: 1.2rem;
         margin-top: 1rem;
-        margin-left: 0.5rem;
+        margin-left: 2rem;
     }
     .pan .can h3{
-        margin-left: 0.5rem;
+        margin-left: 2rem;
+        font-size: 0.8rem;
     }
     .font{
         visibility: hidden;
     }
     .san{
-        width: 60%;
-        height: 150px;
+        width: 100%;
+        height: 190px;
         display: block;
-        margin-top: 16.3rem;
-        margin-left: 2rem;
+        margin-top: 30.5rem;
+        margin-left: 0.1rem;
         flex-wrap: wrap;
     }
     .san h5{
         margin-top: 1rem;
+        font-size: 1.3rem;
+        margin-left: 2rem;
+    }
+    .san h6{
         font-size: 0.8rem;
+        margin-left: 2rem;
     }
     .gan{
-        width: 60%;
-        height: 150px;
+        width: 100%;
+        height: 190px;
         display: block;
-        margin-top: 16rem;
-        margin-left: 2rem;
+        margin-top: 30.5rem;
+        margin-left: 0.1rem;
         flex-wrap: wrap;
     }
     .gan h5{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
         margin-top: 1rem;
-    }
-    .ran{
-        width: 60%;
-        height: 150px;
-        display: block;
-        margin-top: 16rem;
         margin-left: 2rem;
+    }
+    .gan h6{
+        font-size: 0.8rem;
+        margin-left: 2rem;
+    }
+
+    .ran{
+        width: 100%;
+        height: 190px;
+        display: block;
+        margin-top: 30.5rem;
+        margin-left: 0.1rem;
         flex-wrap: wrap;
     }
     .ran h3{
-        font-size: 0.8rem;
+        font-size: 1rem;
         margin-top: 1rem;
+        margin-left: 1.8rem;
+    }
+    .ran h4{
+        font-size:0.7rem ;
+        margin-left: 1.8rem;
     }
     .yan{
-        width: 60%;
-        height: 150px;
+        width: 100%;
+        height: 190px;
         display: block;
-        margin-top: 16rem;
-        margin-left: 2rem;
+        margin-top: 30.5rem;
+        margin-left: 0.1rem;
         flex-wrap: wrap;
+    }
+    .yan h2{
+        font-size: 1.2rem;
+        margin-top:1rem;
+        margin-left: 2rem;
+    
+    }
+    .yan h3{
+        font-size: 0.8rem;
+        margin-left: 2rem;
     }
     .pin{
         width: 60%;
@@ -1224,7 +1251,7 @@ video{
     .mum{
         width: 100%;
         height: 620px;
-        margin-top:6rem;
+        margin-top:1rem;
         /* flex-direction: column; */
         display: block;
         flex-wrap: wrap;   
@@ -1389,13 +1416,13 @@ video{
     }
     .genv{
         width: 100%;
-        height: 1000px;
+        height: 1070px;
         display: block;
         flex-wrap: wrap;
     }
     .vak{
         width: 100%;
-        height: 1000px;
+        height: 1070px;
         display: block;
         flex-wrap: wrap;
     }

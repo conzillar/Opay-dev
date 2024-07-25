@@ -1175,7 +1175,7 @@ video{
         font-size: 1rem;
         justify-content: center;
         align-items: center;
-        margin-top:0%;
+        margin-top:-1rem;
         line-height: 24px;
         /* margin-left:0.1rem; */
         font-weight: 400;

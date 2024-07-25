@@ -924,11 +924,11 @@ video{
         display: block;
     }
     header{
-        width: 84.2%;
+        width: 100%;
         height: 65px;
     }
     nav{
-        width: 84.2%;
+        width: 100%;
         height: 65px;
     }
     .nav-logo{
@@ -987,40 +987,40 @@ video{
         flex-wrap: wrap;
     }
     .kon{
-        width: 70%;
-        height: 470px;
+        width: 60%;
+        height: 386px;
         display: block;
         margin-left: 2rem;
         margin-top: 1rem;
         flex-wrap: wrap;
     }
     .hon{
-        width: 70%;
-        height: 470px;
+        width: 60%;
+        height: 386px;
         display: block;
         margin-left: 2rem;
         margin-top: 13rem;
         flex-wrap: wrap;
     }
     .don{
-        width: 70%;
-        height: 470px;
+        width: 60%;
+        height: 386px;
         display: block;
         margin-left: 2rem;
         margin-top:13rem;
         flex-wrap: wrap;
     }
     .lan{
-        width: 70%;
-        height: 470px;
+        width: 60%;
+        height: 386px;
         display: block;
         margin-left: 2rem;
         margin-top: 13rem;
         flex-wrap: wrap;
     }
     .fok{
-        width: 70%;
-        height: 470px;
+        width: 60%;
+        height: 386px;
         display: block;
         margin-left: 2rem;
         margin-top: 13.5rem;
@@ -1028,18 +1028,18 @@ video{
     }
     .pan{
         width: 100%;
-        height: 2830px;
+        height: 2630px;
         display: block;
         flex-wrap:wrap;
         margin-top: 10rem;
         /* z-index: 9999; */
     }
     .can{
-        width: 100%;
+        width: 90%;
         height: 190px;
         display: block;
-        margin-top: 24rem;
-        margin-left: 0.1rem;
+        margin-top: 18.5rem;
+        margin-left: 1rem;
         flex-wrap: wrap;
         /* visibility: hidden; */
         /* z-index: 9999; */
@@ -1057,11 +1057,11 @@ video{
         visibility: hidden;
     }
     .san{
-        width: 100%;
+        width: 90%;
         height: 190px;
         display: block;
-        margin-top: 30.5rem;
-        margin-left: 0.1rem;
+        margin-top: 25rem;
+        margin-left:1rem;
         flex-wrap: wrap;
     }
     .san h5{
@@ -1074,11 +1074,11 @@ video{
         margin-left: 2rem;
     }
     .gan{
-        width: 100%;
+        width: 90%;
         height: 190px;
         display: block;
-        margin-top: 29.7rem;
-        margin-left: 0.1rem;
+        margin-top: 25rem;
+        margin-left:1rem;
         flex-wrap: wrap;
     }
     .gan h5{
@@ -1092,11 +1092,11 @@ video{
     }
 
     .ran{
-        width: 100%;
+        width: 90%;
         height: 190px;
         display: block;
-        margin-top: 30.5rem;
-        margin-left: 0.1rem;
+        margin-top:25.5rem;
+        margin-left:1rem;
         flex-wrap: wrap;
     }
     .ran h3{
@@ -1109,11 +1109,11 @@ video{
         margin-left: 1.8rem;
     }
     .yan{
-        width: 100%;
+        width: 90%;
         height: 190px;
         display: block;
-        margin-top: 30.5rem;
-        margin-left: 0.1rem;
+        margin-top: 25.5rem;
+        margin-left:1rem;
         flex-wrap: wrap;
     }
     .yan h2{
@@ -1135,8 +1135,9 @@ video{
         flex-wrap: wrap;
     }
     .pin h1{
-        font-size: 9rem;
-        margin-top: -10rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+        margin-left: 3rem;
     }
     .mother{
         width: 100%;
@@ -1214,7 +1215,7 @@ video{
     }
     .victor{
         width: 100%;
-        height: 450px;
+        height: 480px;
         margin-top:-6rem;
         flex-direction: column;
         display: block;
@@ -1232,7 +1233,7 @@ video{
         width: 99%;
         height: 230px;
         margin-left: 0.1rem;
-        margin-top: -2rem;
+        margin-top: 0.5rem;
         display: block;
         flex-wrap: wrap;   
     }
